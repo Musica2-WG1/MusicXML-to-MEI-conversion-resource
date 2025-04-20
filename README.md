@@ -8,6 +8,8 @@ If you wish to replicate the command lines with Verovio introduced in the articl
 
 `verovio -f musicxml -t mei -o output.mei input.xml`
 
+For batch processing: 
+
 ```bash
 for file in *.xml; do
   verovio -f musicxml -t mei -o "${file%.xml}.mei" "$file"
