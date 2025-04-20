@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     meiversion="4.0.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title label="work">Io crido amor,
+              <identifier type="workNum">36</identifier>
+            </title>
+            <composer>
+               <name role="composer">Johannes Ciconia</name>
+            </composer>
+         </titleStmt>
+         <pubStmt/>
+         <sourceDesc>
+            <source>
+               <bibl>
+                  <title label="work">Io crido amor,
+                    <identifier type="workNum">36</identifier>
+                  </title>
+                  <composer>
+                     <name role="composer">Johannes Ciconia</name>
+                  </composer>
+                  <imprint>
+                     <annot>2025 RicercarLab</annot>
+                  </imprint>
+                  <annot>Source MusicXML file created by Kévin Roger using MuseScore 4.5.1 on
+                    <date>2025-04-02</date>.</annot>
+               </bibl>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="v1.0_beta" xml:id="app_202592103152571">
+               <name>mei30To40.xsl</name>
+            </application>
+         </appInfo>
+         <editorialDecl>
+            <normalization>
+               <p>Calculation of @tstamp and @tstamp2 values on control events, such as dir, dynam,
+              hairpin, etc., includes MusicXML offset values.</p>
+               <p>The parameters for musicxml2mei.xsl were set as follows: <list>
+                     <li>accidStyle: "attr", </li>
+                     <li>articStyle: "elem", </li>
+                     <li>formeWork: "strip", </li>
+                     <li>generateMIDI: "false", </li>
+                     <li>keepAttributes: "false", </li>
+                     <li>keepRights: "false", </li>
+                     <li>labelStyle: "attr", </li>
+                     <li>layout: "strip", </li>
+                     <li>tieStyle: "attr"</li>
+                  </list>
+               </p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <workList>
+         <work>
+            <title label="work">Io crido amor,
+              <identifier type="workNum">36</identifier>
+            </title>
+            <composer>
+               <name role="composer">Johannes Ciconia</name>
+            </composer>
+         </work>
+      </workList>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Transcoded from a MusicXML version 4.0 file using an XSLT stylesheet (musicxml2mei v. 3.0).</p>
+            </changeDesc>
+            <date>2025-04-02</date>
+         </change>
+         <change n="2" resp="#app_202592103152571">
+            <changeDesc>
+               <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version
+                1.0 beta</p>
+            </changeDesc>
+            <date isodate="2025-04-02"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef key.sig="0" meter.count="6" meter.unit="8">
+                  <staffGrp>
+                     <staffDef clef.line="2"
+                               clef.shape="G"
+                               key.sig="0"
+                               lines="5"
+                               n="1"
+                               xml:id="P1">
+                        <label>I</label>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <measure n="1" xml:id="w751439ab1c17">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c17b1b5">
+                              <verse n="1">
+                                 <syl con="u" x="-5.06">1.5.Io</syl>
+                              </verse>
+                           </note>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c17b1b7"/>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c17b1b9"/>
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c17b1c11"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c17b1c13"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="2" xml:id="w751439ab1c19">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c19b1b1"/>
+                           <rest dur="8" xml:id="w751439ab1c19b1b3"/>
+                           <rest dur="8" xml:id="w751439ab1c19b1b5"/>
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c19b1b7"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c19b1b9"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="3" xml:id="w751439ab1c21">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c21b1b1"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c21b1b3"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c21b1b5"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c21b1b7"/>
+                           </beam>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c21b1b9"/>
+                           <note accid="s"
+                                 dur="8"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c21b1c11"/>
+                        </layer>
+                     </staff>
+                     <dir label="words" place="above" staff="1" tstamp="-4.5">#</dir>
+                  </measure>
+                  <measure n="4" xml:id="w751439ab1c23">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur="4"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c23b1b1"/>
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c23b1b3"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c23b1b5"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c23b1b7">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="i" x="1.3">cri</syl>
+                                 </verse>
+                              </note>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c23b1b9">
+                                 <verse n="1">
+                                    <syl wordpos="t" x="1.3">do</syl>
+                                 </verse>
+                              </note>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c23b1c11">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="i" x="1.3">a</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb/>
+                  <measure n="5" xml:id="w751439ab1c25">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="16"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c25b1b3">
+                                 <verse n="1">
+                                    <syl con="u" wordpos="t">mor</syl>
+                                 </verse>
+                              </note>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c25b1b5"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c25b1b7">
+                                 <verse n="1">
+                                    <syl con="u">[</syl>
+                                 </verse>
+                              </note>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c25b1b9"/>
+                           </beam>
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c25b1c11"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c25b1c13"/>
+                              <note dur="16"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c25b1c15"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c25b1c17"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c25b1c19"/>
+                              <note dur="16"
+                                    oct="3"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c25b1c21"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="6" xml:id="w751439ab1c27">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c27b1b1"/>
+                           <rest dur="8" xml:id="w751439ab1c27b1b3"/>
+                           <rest dur="8" xml:id="w751439ab1c27b1b5"/>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c27b1b7"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="7" xml:id="w751439ab1c29">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c29b1b1"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c29b1b3"/>
+                           </beam>
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c29b1b5"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c29b1b7"/>
+                           </beam>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c29b1b9"/>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c29b1c11"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="8" xml:id="w751439ab1c31">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c31b1b1"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c31b1b3"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c31b1b5"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c31b1b7">
+                                 <verse n="1">
+                                    <syl x="1.3">]</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c31b1b9">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="i">vi</syl>
+                                 </verse>
+                              </note>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c31b1c11"/>
+                              <note accid="s"
+                                    dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c31b1c13">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="m" x="1.3">sçi</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <dir label="words" place="above" staff="1" tstamp="-4.5">#</dir>
+                  </measure>
+                  <measure n="9" xml:id="w751439ab1c33">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c33b1b1">
+                              <verse n="1">
+                                 <syl wordpos="t" x="1.3">da</syl>
+                              </verse>
+                           </note>
+                           <rest dots="1" dur="4" xml:id="w751439ab1c33b1b3"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb/>
+                  <measure n="10" xml:id="w751439ab1c35">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c35b1b3">
+                                 <verse n="1">
+                                    <syl con="u">Et</syl>
+                                 </verse>
+                              </note>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c35b1b5"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c35b1b7">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="i" x="1.3">fru</syl>
+                                 </verse>
+                              </note>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c35b1b9">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="m" x="1.3">i</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c35b1c11">
+                                 <verse n="1">
+                                    <syl con="u" wordpos="t">li</syl>
+                                 </verse>
+                              </note>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c35b1c13"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c35b1c15">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="i" x="1.3">ar</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="11" xml:id="w751439ab1c37">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c37b1b1">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="m">den</syl>
+                                 </verse>
+                              </note>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c37b1b3"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c37b1b5"/>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c37b1b7"/>
+                           </beam>
+                           <note dur="8"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c37b1b9"/>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c37b1c11"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="12" xml:id="w751439ab1c39">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c39b1b1"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c39b1b3"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c39b1b5"/>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c39b1b7"/>
+                           </beam>
+                           <note dur="8"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c39b1b9"/>
+                           <note dur="4"
+                                 oct="3"
+                                 pname="a"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c39b1c11"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="13" xml:id="w751439ab1c41">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="4"
+                                 oct="3"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c41b1b1">
+                              <verse n="1">
+                                 <syl wordpos="t" x="1.3">to</syl>
+                              </verse>
+                           </note>
+                           <rest dur="8" xml:id="w751439ab1c41b1b3"/>
+                           <rest dur="8" xml:id="w751439ab1c41b1b5"/>
+                           <note dur="8"
+                                 oct="3"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c41b1b7">
+                              <verse n="1">
+                                 <syl x="1.3">In</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="14" xml:id="w751439ab1c43">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c43b1b1">
+                                 <verse n="1">
+                                    <syl con="u">cui</syl>
+                                 </verse>
+                              </note>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c43b1b3"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c43b1b5">
+                                 <verse n="1">
+                                    <syl x="1.3">mio</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c43b1b7">
+                                 <verse n="1">
+                                    <syl con="u">cor</syl>
+                                 </verse>
+                              </note>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c43b1b9"/>
+                              <note accid="s"
+                                    dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c43b1c11">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="i" x="1.3">con</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <dir label="words" place="above" staff="1" tstamp="-4.5">#</dir>
+                  </measure>
+                  <sb/>
+                  <measure n="15" xml:id="w751439ab1c45">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c45b1b3">
+                              <verse n="1">
+                                 <syl con="d" wordpos="m">fi</syl>
+                              </verse>
+                           </note>
+                           <rest dur="8" xml:id="w751439ab1c45b1b5"/>
+                           <rest dur="8" xml:id="w751439ab1c45b1b7"/>
+                           <note dur="8"
+                                 oct="3"
+                                 pname="a"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c45b1b9"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="16" xml:id="w751439ab1c47">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="16"
+                                    oct="3"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c47b1b1"/>
+                              <note dur="16"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c47b1b3"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c47b1b5"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c47b1b7"/>
+                           </beam>
+                           <beam>
+                              <note dur="16"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c47b1b9"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c47b1c11"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c47b1c13"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c47b1c15"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="17" xml:id="w751439ab1c49">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c49b1b1"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c49b1b3"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c49b1b5"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c49b1b7"/>
+                           </beam>
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c49b1b9"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c49b1c11"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c49b1c13"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c49b1c15"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="18" xml:id="w751439ab1c51">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c51b1b1"/>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c51b1b3"/>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c51b1b5"/>
+                              <rest dur="8" xml:id="w751439ab1c51b1b7"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c51b1b9"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="19" xml:id="w751439ab1c53">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c53b1b1"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c53b1b3"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c53b1b5"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c53b1b7"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c53b1b9"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c53b1c11"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c53b1c13"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c53b1c15"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb/>
+                  <measure n="20" xml:id="w751439ab1c55">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c55b1b3"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c55b1b5"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c55b1b7"/>
+                           </beam>
+                           <note dur="8"
+                                 oct="3"
+                                 pname="a"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c55b1b9"/>
+                           <note dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c55b1c11"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="21" right="rptend" xml:id="w751439ab1c57">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="2"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c57b1b1">
+                              <verse n="1">
+                                 <syl wordpos="t" x="1.692">da.</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+               <section>
+                  <measure left="rptstart" n="22" xml:id="w751439ab1c59">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c59b1b3">
+                              <verse n="1">
+                                 <syl con="d" wordpos="i" x="-2.578">2.Di</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="d" wordpos="i" x="-2.578">3.Pen</syl>
+                              </verse>
+                           </note>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c59b1b5">
+                              <verse n="1">
+                                 <syl wordpos="t" x="1.3">so</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="d" wordpos="m" x="1.3">san</syl>
+                              </verse>
+                           </note>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c59b1b7">
+                              <verse n="1">
+                                 <syl con="d" wordpos="i" x="1.3">gli or</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t" x="1.3">do</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="23" xml:id="w751439ab1c61">
+                     <staff n="1">
+                        <layer n="1">
+                           <note accid="f"
+                                 dur="4"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 xml:id="w751439ab1c61b1b1">
+                              <verse n="1">
+                                 <syl con="d" wordpos="m">ma</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="d" wordpos="i">sem</syl>
+                              </verse>
+                           </note>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="a"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c61b1b3"/>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="a"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c61b1b5"/>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c61b1b7"/>
+                        </layer>
+                     </staff>
+                     <dir label="words" place="above" staff="1" tstamp="-84.5">b</dir>
+                  </measure>
+                  <measure n="24" xml:id="w751439ab1c63">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c63b1b1"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c63b1b3"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c63b1b5"/>
+                              <note accid="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c63b1b7"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c63b1b9"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c63b1c11"/>
+                              <note accid="s"
+                                    dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c63b1c13"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <dir label="words" place="above" staff="1" tstamp="-52.5">b</dir>
+                     <dir label="words" place="above" staff="1" tstamp="-4.5">#</dir>
+                  </measure>
+                  <measure n="25" xml:id="w751439ab1c65">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c65b1b1">
+                              <verse n="1">
+                                 <syl wordpos="t" x="1.3">y</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t" x="1.3">pre</syl>
+                              </verse>
+                           </note>
+                           <rest dur="8" xml:id="w751439ab1c65b1b3"/>
+                           <rest dur="8" xml:id="w751439ab1c65b1b5"/>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c65b1b7">
+                              <verse n="1">
+                                 <syl x="1.3">quel</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl x="1.3">a</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb/>
+                  <measure n="26" xml:id="w751439ab1c67">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c67b1b3">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="i" x="1.3">an</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl con="d" wordpos="i" x="1.3">l'a</syl>
+                                 </verse>
+                              </note>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c67b1b5">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="m" x="1.3">go</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl con="d" wordpos="m" x="1.3">mo</syl>
+                                 </verse>
+                              </note>
+                              <note accid="s"
+                                    dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c67b1b7">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="m" x="1.3">so</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl con="d" wordpos="m" x="1.3">ro</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c67b1b9">
+                                 <verse n="1">
+                                    <syl wordpos="t" x="1.3">so</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl wordpos="t" x="1.3">so</syl>
+                                 </verse>
+                              </note>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c67b1c11">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="i">no</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl con="d" wordpos="i">mo</syl>
+                                 </verse>
+                              </note>
+                              <note accid.ges="s"
+                                    dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c67b1c13"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <dir label="words" place="above" staff="1" tstamp="-52.5">#</dir>
+                     <dir label="words" place="above" staff="1" tstamp="-4.5">#</dir>
+                  </measure>
+                  <measure n="27" xml:id="w751439ab1c69">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c69b1b1">
+                              <verse n="1">
+                                 <syl wordpos="t" x="1.3">do</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t" x="1.3">do</syl>
+                              </verse>
+                           </note>
+                           <rest dur="8" xml:id="w751439ab1c69b1b3"/>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c69b1b5">
+                                 <verse n="1">
+                                    <syl con="u">Per</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl con="u">Se</syl>
+                                 </verse>
+                              </note>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c69b1b7"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="28" xml:id="w751439ab1c71">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur="8"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c71b1b1">
+                              <verse n="1">
+                                 <syl x="1.3">cui</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl x="1.3">cui</syl>
+                              </verse>
+                           </note>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c71b1b3">
+                              <verse n="1">
+                                 <syl x="1.3">ma</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="d" wordpos="i" x="1.3">l'al</syl>
+                              </verse>
+                           </note>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c71b1b5">
+                              <verse n="1">
+                                 <syl con="d" wordpos="i" x="1.3">çor</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t" x="1.3">ma</syl>
+                              </verse>
+                           </note>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c71b1b7">
+                              <verse n="1">
+                                 <syl wordpos="t" x="1.3">no e</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="d" wordpos="i" x="1.3">or</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="29" xml:id="w751439ab1c73">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c73b1b1">
+                              <verse n="1">
+                                 <syl con="d" wordpos="i" x="1.3">noe</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u" wordpos="t">me</syl>
+                              </verse>
+                           </note>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c73b1b3">
+                                 <verse n="1">
+                                    <syl wordpos="t" x="1.3">te</syl>
+                                 </verse>
+                              </note>
+                              <rest dur="8" xml:id="w751439ab1c73b1b5"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c73b1b7">
+                                 <verse n="1">
+                                    <syl con="u">non</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl con="u">di</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="30" xml:id="w751439ab1c75">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur="8"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c75b1b1"/>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c75b1b3"/>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c75b1b5">
+                              <verse n="1">
+                                 <syl con="u">ho</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="d" wordpos="i" x="1.3">an</syl>
+                              </verse>
+                           </note>
+                           <note accid="s"
+                                 dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c75b1b7">
+                              <verse n="2">
+                                 <syl wordpos="t" x="1.3">te</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <dir label="words" place="above" staff="1" tstamp="-4.5">#</dir>
+                  </measure>
+                  <measure n="31" xml:id="w751439ab1c77">
+                     <staff n="1">
+                        <layer n="1">
+                           <note accid="s"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c77b1b1">
+                              <verse n="1">
+                                 <syl con="d" wordpos="i">ben</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="d" wordpos="i">pen</syl>
+                              </verse>
+                           </note>
+                           <beam>
+                              <note dur="16"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c77b1b3"/>
+                              <note accid.ges="s"
+                                    dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c77b1b5"/>
+                           </beam>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c77b1b7"/>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c77b1b9"/>
+                        </layer>
+                     </staff>
+                     <dir label="words" place="above" staff="1" tstamp="-84.5">#</dir>
+                     <dir label="words" place="above" staff="1" tstamp="-44.5">#</dir>
+                  </measure>
+                  <sb/>
+                  <measure n="32" xml:id="w751439ab1c79">
+                     <staff n="1">
+                        <layer n="1">
+                           <rest dur="8" xml:id="w751439ab1c79b1b3"/>
+                           <rest dur="8" xml:id="w751439ab1c79b1b5"/>
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c79b1b7"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c79b1b9"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c79b1c11"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c79b1c13"/>
+                           </beam>
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c79b1c15"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c79b1c17"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="33" xml:id="w751439ab1c81">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c81b1b1"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c81b1b3"/>
+                           </beam>
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c81b1b5"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c81b1b7"/>
+                           </beam>
+                           <beam>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c81b1b9"/>
+                              <note dur="16"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c81b1c11"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c81b1c13"/>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c81b1c15"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="34" xml:id="w751439ab1c83">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c83b1b1"/>
+                              <rest dur="8" xml:id="w751439ab1c83b1b3"/>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c83b1b5"/>
+                           </beam>
+                           <beam>
+                              <note dur="16"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c83b1b7"/>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c83b1b9"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c83b1c11"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w751439ab1c83b1c13"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="35" xml:id="w751439ab1c85">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur="16"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c85b1b1"/>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c85b1b3"/>
+                           <note dur="8"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c85b1b5"/>
+                           <note dur="16"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c85b1b7"/>
+                           <note dur="8"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c85b1b9"/>
+                           <note dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="up"
+                                 xml:id="w751439ab1c85b1c11"/>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+               <section>
+                  <scoreDef meter.count="3" meter.unit="2"/>
+                  <measure n="36" right="rptend" xml:id="w751439ab1c87">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="1"
+                                 oct="4"
+                                 pname="c"
+                                 xml:id="w751439ab1c87b1b3">
+                              <verse n="1">
+                                 <syl wordpos="t" x="1.452">ne.</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t" x="1.452">ne.</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
